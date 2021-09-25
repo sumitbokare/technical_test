@@ -13,7 +13,7 @@
 
 
 ## Three tier:
-This Terraform code provision the resources in GCP, below are prerequisites for testing this code on Cloud:
+This Terraform code provisions the 3 tier environment resources in GCP, below are some prerequisites for testing this code on Cloud:
 
 * Shared VPC is available and Application will be deployed on project which is using shared VPC
 * Terraform is using GCS buckets as a backend for storing configuration

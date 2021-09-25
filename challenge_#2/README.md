@@ -2,6 +2,12 @@
 
 This bash script accepts the metadata key as input and retrives the data value in json output
 
+- [Usage](#usage)
+- [Test](#example)
+- [Input Arguments](#input-arguments)
+
+
+
 
 ## Usage 
 

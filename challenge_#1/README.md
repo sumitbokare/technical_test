@@ -13,13 +13,13 @@
 
 
 ## Three tier:
+This Terraform code provision the resources in GCP, below are prerequisites for testing this code on Cloud:
 
-Three tier is industry standard for modern web application where we have 3 tiers for following
-* Presentation tier (WebAPP tier): Prepares HTMLs by calling App tier
-* Application tier (App tier): Prepare data by calling DB or other third party services
-* Database tier (DB tier): Stores the data in database.
+* Shared VPC is available and Application will be deployed on project which is using shared VPC
+* Terraform is using GCS buckets as a backend for storing configuration
 
-Creating three architecture in GCP requires lot of resources like Databse, Instances, LB, Routing tables etc to be created and this has been automated using terraform.
+
+Below Architecture diagram represents the actual resources being created for 3 tier environment:
 
 ![alt text](https://github.com/sumitbokare/technical_test/blob/main/challenge_%231/3-tier-webapp-arch.png)
 
@@ -30,7 +30,7 @@ Creating three architecture in GCP requires lot of resources like Databse, Insta
 
 **Cloud Provider** : Google Cloud
 
-**IAC Tool**: Terraform and Terragrunt
+**IAC Tool**: Terraform and Terragrunt (Wrapper)
 
 
 

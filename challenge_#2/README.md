@@ -1,22 +1,16 @@
-# technical_test
-Technical Test
+# Retrieve AWS Instance Metadata:
 
-** AWS Instance Metadata: **
-
-Instance metadata is data about your instance that you can use to configure or manage the running instance.
+This bash script accepts the metadata key as input and retrives the data value in json output
 
 
-Given bash script accepts the metadata key as input and retrives the data value in json output
-
-
-# Usage 
+## Usage 
 
 Run the bash script within AWS instance and provide input data key from listed options
 
 If given metadata is not available, the script will throw an error 
 
 
-# Example
+## Example
 
 ```bash
 ./metadata.sh
@@ -35,7 +29,7 @@ output:
 
 
 
-** Input Arguments: **
+## Input Arguments:
 
 The following table lists the categories of instance metadata:
 

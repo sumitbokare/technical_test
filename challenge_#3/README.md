@@ -1,6 +1,8 @@
 # Get value from nested object using lodash
 
-## Installation
+This funtion uses lodash to retrieve value from nested object. We have used `_get` funtion to achieve this.
+
+## Lodash Installation
 
 ```shell
 $ npm i -g npm

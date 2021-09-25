@@ -2,6 +2,12 @@
 
 This funtion uses lodash to retrieve value from nested object. We have used `_get` funtion to achieve this.
 
+- [Lodash Installation](#lodash-installation)
+- [_get Function ](#_get-function)
+- [Usage](#usage)
+- [Test](#test)
+
+
 ## Lodash Installation
 
 ```shell
@@ -10,7 +16,7 @@ $ npm i lodash
 ```
 
 
-## \_get  
+## \_get Function
 
 ```shell
 _.get(object, path, [defaultValue])
@@ -33,7 +39,7 @@ node get.js
 ```
 
 
-## Example
+## Test
 
 ```js
 var object = { 'x': [{ 'y': { 'z': 'a' } }] };
